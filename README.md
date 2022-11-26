@@ -1,11 +1,14 @@
 # 2420_makeup
 <h1>How to Install Arch Linux after booting it from a disk image</h1>
-![][1.png]
+<img src="1.png" width="800" />
 When you first boot from your disk image, you will see a CLI
 <h3>Step 1: Selecting your keyboard layout</h3>
 If you're using the US Keyboard layout, you can skip this step. 
 This command will list out all available keyboard layouts
-**ls /usr/share/kbd/keymaps/**/*.map.gz**
+```
+ls /usr/share/kbd/keymaps/**/*.map.gz
+```
+
 <img src="3.png" width="800" />
 Use this command to select your keyboard layout
 **loadkeys KEYBOARD_LAYOUT**
