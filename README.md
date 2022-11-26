@@ -6,7 +6,7 @@ When you first boot from your disk image, you will see a CLI
 If you're using the US Keyboard layout, you can skip this step. 
 This command will list out all available keyboard layouts
 **ls /usr/share/kbd/keymaps/**/*.map.gz**
-![](3.png)
+![](/3.png)
 Use this command to select your keyboard layout
 **loadkeys KEYBOARD_LAYOUT**
 ![][4.png]
